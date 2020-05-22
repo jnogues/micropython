@@ -1,6 +1,6 @@
 '''
 Micropython in esp32 simple example for use PZEM04t V3 in default modbus address 0xF8
-whitout modbus library. Use UART1 or UART2.
+whithout modbus library. Use UART1 or UART2.
 2020-05-22
 Jaume Nogues, jnogues@gmail.com
 '''
