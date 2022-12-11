@@ -12,11 +12,10 @@ import uos
 from time import sleep
 #uos.dupterm(None, 1) # disable REPL on UART(0)
 import gc
+sleep(4)
 #import webrepl
 #webrepl.start()
 gc.collect()
 print("mem free: ", gc.mem_free())
-
-sleep(4)
 print("@")
 import main
